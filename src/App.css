@@ -1,0 +1,44 @@
+.text-center {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.link {
+  flex-basis: calc(100% / 3 - 2px);
+  margin-top: 5px;
+  text-decoration: none;
+  background-color: slategrey;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.active-link {
+  background-color: slateblue;
+}
+
+.link:not(.active-link):hover {
+  background-color: steelblue;
+}
+
+.main-container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.footer {
+  margin: 2px;
+  border-top: 2px solid slateblue;
+  background-color: slategray;
+  color: white;
+  height: 62px;
+}
